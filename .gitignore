@@ -1,0 +1,34 @@
+# Environment variables — never commit your API credentials
+.env
+
+# Telethon session files — these store your login session and must be kept private
+*.session
+*.session-journal
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
